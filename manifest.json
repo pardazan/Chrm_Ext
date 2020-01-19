@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
     "name": "Akbar Chrome Extension",
-    "version": "0.3",
+    "version": "0.4",
     "content_scripts": [
         {
             "matches": [
-                "<all_urls>"
+                "*://apcoware.ir/*"
             ],
             "js": [
                 "content.js"
@@ -25,5 +25,5 @@
     "icons": {
         "48": "icons/apcologo_48.png",
         "128": "icons/apcologo_128.png"
-     }
+    }
 }
